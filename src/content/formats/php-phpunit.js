@@ -35,7 +35,7 @@ function verifyTextPresent(expression) {
     return  '$this->verifyTextPresent("' + e.slice(e.indexOf('"') +1, e.lastIndexOf('"')) + '");';
 }
 
-options.phpunitClass = "PHPUnit_Extensions_SeleniumTestCase";
+options.phpunitClass = "OWSeleniumTestCase";
 
 options.header =
     '<?php\n' +

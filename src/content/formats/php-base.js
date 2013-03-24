@@ -175,7 +175,7 @@ function formatComment(comment) {
 
 this.options = {
     receiver: "$this",
-    environment: "*chrome",
+    environment: "*firefox",
     indent: "2",
     initialIndents: '2'
 };
